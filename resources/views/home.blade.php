@@ -3,7 +3,7 @@
 @section('content')
 
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">Materi Tutorial Tsn_Ngoding</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -12,7 +12,8 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Belajar Rest Api Full menggunakan laravel 7 ') }}
+                    <br>{{ __('Crated By Tegar Satya Negara') }}
                 </div>
             </div>
 
